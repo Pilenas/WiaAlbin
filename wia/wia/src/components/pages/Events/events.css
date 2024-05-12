@@ -1,0 +1,124 @@
+.events-wrapper {
+    height: 100;
+    overflow: scroll;
+    background-color: #231F42;
+}
+
+.events-center {
+    margin: 0 auto;
+    width: 79%;
+}
+
+.events-title {
+    margin: 0 auto 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    color: #F56B9A;
+    font-size: 32px;
+    line-height: 37.28px;
+    font-family: 'SanitaOne';
+    font-weight: 400;
+}
+
+.events-form {
+    position: relative;
+    width: 100%;
+}
+
+.events-input {
+    width: 100%;
+    padding: 1rem;
+    padding-left: 40px;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.events-input::placeholder {
+    opacity: 0.7;
+    color: white;
+}
+
+.events-item {
+    padding: 1rem 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.events-date-container {
+    align-items: center;
+    border: 1px solid #ffff;
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+}
+
+.events-info-time,
+.events-info-price,
+.events-info-title,
+.events-info-date,
+.events-info-location,
+.events-info-mon {
+    font-size: 14px;
+    line-height: 16.8px;
+    font-family: 'Fira sans';
+}
+
+.events-info-mon {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.events-info-link {
+    text-decoration: none;
+    grid-column: 2 / 4;
+}
+
+.events-info {
+    color: white;
+}
+
+.events-info-title {
+    text-shadow: 1px 1px 0 #F56B9A;
+    font-size: 22px;
+    line-height: 26.4px;
+}
+
+.events-info-location {
+    padding: .3rem 0;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 14.4px;
+}
+
+.events-btn {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #37AEAB;
+    color: white;
+    font-family: 'Fira sans';
+    font-size: 15px;
+    line-height: 26.4px;
+}
+.event-details {
+    border-bottom: 1.2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.events-info-time {
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.events-info-price {
+    color: #37AEAB;
+    font-size: 17px;
+    line-height: 20.4px;
+}

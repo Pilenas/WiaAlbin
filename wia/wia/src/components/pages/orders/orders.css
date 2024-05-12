@@ -1,0 +1,17 @@
+.empty-wrapper {
+    background-color: #231F42;
+    height: 100vh;
+}
+
+.empty-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-text {
+    font-size: 20px;
+    font-family: SanitaOne;
+    line-height: 37.28px;
+    color: #F56B9A;
+}

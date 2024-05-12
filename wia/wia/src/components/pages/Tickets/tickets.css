@@ -1,0 +1,14 @@
+.no-tickets {
+    background-color: #231F42;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.no-tickets__title {
+    font-size: 20px;
+    font-family: SanitaOne;
+    line-height: 37.28px;
+    color: #F56B9A;
+}
+

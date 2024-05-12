@@ -1,0 +1,37 @@
+.home_con {
+    width: 100%;
+    background-color: #231F42;
+
+}
+
+.home_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'SanitaOne';
+    src: url('../../../sanitaOne/SansitaOne.ttf') format('truetype'); 
+}
+
+.home_wia {
+    font-family: 'SanitaOne', sans-serif; 
+    color: #F56B9A;
+    font-size: 32px;
+    line-height: 37px;
+    padding: 1rem .5rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7); /* Svart skugga */
+}
+
+.home_tme {
+    font-family: 'Fira Sans';
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 26.4px;
+    padding-bottom: 11rem;
+}
